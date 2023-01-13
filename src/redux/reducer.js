@@ -28,7 +28,7 @@ const reducer = (state={
     operation: "",
     overwrite: false,
 }, action) => {
-    console.log(action);
+    // console.log(action);
     switch(action.type){
         case ACTIONS.ADD_DIGIT:
             if(state.overwrite)
